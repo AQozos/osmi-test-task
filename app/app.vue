@@ -1,9 +1,11 @@
 <script setup>
-
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 </script>
 
 <template>
-  <div>
-    <h1 class="text-blue-500">Hello!</h1>
-  </div>
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
 </template>
